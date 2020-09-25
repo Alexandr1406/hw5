@@ -1,0 +1,118 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+    box-sizing: border-box;
+    transition: all .3s ease-in;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+
+/* Main Styles */
+
+html {
+    border: 25px solid #ffffff;
+    min-height: 100%;
+}
+
+body {
+    text-align: center;
+    background: #3b3f45;
+    font: 26px "Trebuchet MC", Trebuchet, Arial, sans-serif;
+    color: #f9f9f9;
+}
+
+.header, footer {
+    height: 120px;
+    background: #4a4f56;
+    margin: 0 auto;
+    color: #eb7e7f;
+    padding: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.shop-list {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+    }
+
+
+li {
+    max-height: 65px;    
+    background: #7a7593;
+    color: #f9f9f9;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+footer {
+    max-width: 800px;
+    height: 75px;
+    margin: 40px auto;
+    padding: 20px 0;
+    
+}
+
+.shop-list li:nth-child(odd) {
+    background: #88839e;
+}
+
+.shop-list li:hover {
+    background: #625e77;
+    border-color: #ffffff;
+}
+
+.shop-list li:active {
+    background: #eb7e7f;
+}
+
+.shop-list li input:checked + label{
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+.shop-list input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.list label {
+    display: inline-block;
+    cursor: pointer;
+    width: calc(100% - 65px);
+    padding: 20px;
+}
+
+.list li small::before {
+    content: "(";
+}
+
+.list li small::after {
+    content: ")";
+}
+
+.list li small {
+    font-size: 60%;
+}
+
