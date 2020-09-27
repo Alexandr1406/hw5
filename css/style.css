@@ -8,7 +8,6 @@
 	border: 0;
 	outline: none;
     box-sizing: border-box;
-    transition: all .3s ease-in;
 }
 
 img {
@@ -62,6 +61,11 @@ li {
     color: #f9f9f9;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
+    position: relative;
+}
+
+li small {
+    color:  #cdcbd6;
 }
 
 footer {
@@ -95,13 +99,18 @@ footer {
     height: 25px;
     cursor: pointer;
     margin: 0 10px;
+    vertical-align: middle;
+    position: absolute;
+    top: 17px;
 }
 
 .list label {
     display: inline-block;
     cursor: pointer;
     width: calc(100% - 65px);
-    padding: 20px;
+    padding: 15px 0 15px 50px;
+    vertical-align: middle;
+    
 }
 
 .list li small::before {
