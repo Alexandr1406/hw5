@@ -107,7 +107,7 @@ footer {
 .list label {
     display: inline-block;
     cursor: pointer;
-    width: calc(100% - 65px);
+    width: 100%;
     padding: 15px 0 15px 50px;
     vertical-align: middle;
     
